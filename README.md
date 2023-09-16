@@ -12,7 +12,7 @@ For more about FWCracker visit, *htttps://github.com/odioski*
 
 #	INSTALLATION
 
-1) Use Python:
+#	Use Python:
 
 Download the code:
 	
@@ -26,11 +26,12 @@ Run FWCracker:
 
 	python -m FWCracker.py
 
-2) Launch the Win exe:
+#	Launch the Win exe:
 
 Navigate to dist/FWCracker, inside is FWCracker.exe
 
-3) Install FWCracker, 
+
+#	Install FWCracker, 
 
 Double-click the FWCracker_v3_Installer located in /INSTALLER
 

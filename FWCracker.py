@@ -22,18 +22,28 @@ from PyQt6.QtWidgets import (QApplication, QCheckBox, QLabel, QLineEdit,
 
 #   Necessary components...
 
+try:
+    from ctypes import windll 
 
-global bios_state
-bios_state = "NIL"
+    myappid = "bookmotives.FWCracker.subproduct.version"
+
+    windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+except ImportError:
+    pass
+
+
+    global bios_state
+    bios_state = "True"
+    control = bios_state
+
+    
 
 #   From here we'll attempt to integrate a workable GUI for this app
 
 
 app = QApplication(sys.argv)
 
-
 class MainWindow(QMainWindow):
-
 
     def __init__(self):
         super().__init__()
@@ -62,8 +72,8 @@ class MainWindow(QMainWindow):
         port.textChanged.connect(self.decouple_port)
         
         
-        bios_state = QCheckBox("Bios needs confirmation?")
-        bios_state.stateChanged.connect(self.decouple_bios_state)
+        control = QCheckBox("Bios needs confirmation?")
+        control.stateChanged.connect(self.decouple_control)
 
         launchButton = QPushButton("Launch")
         
@@ -79,7 +89,7 @@ class MainWindow(QMainWindow):
         layout.addWidget(word)
         layout.addWidget(NumberLabel)
         layout.addWidget(pattern)
-        layout.addWidget(bios_state)
+        layout.addWidget(control)
         layout.addWidget(findPorts)
         layout.addWidget(SerialLabel)
         layout.addWidget(port)
@@ -108,13 +118,15 @@ class MainWindow(QMainWindow):
         else:
             global_number_pattern = text
     
-    def decouple_bios_state(self, state):
+    def decouple_control(self, state):
         if state > 0:
-            bios_state = "SET"
-            print("Bios Confirmation: " + bios_state)
+            control = "SET"
+            print("Bios Confirmation: " + control)
         else:
-            bios_state = "UNSET"
-            print("Bios Confirmation: " + bios_state)
+            control = "UNSET"
+            print("Bios Confirmation: " + control)
+        return(control)
+        
     
     def decouple_port(self, text):
         global hid_port
@@ -129,7 +141,7 @@ class MainWindow(QMainWindow):
     
 
     def build_range(self):
-        control = bios_state
+        control = "True"
         known_factor = int(global_number_pattern) / 10
         keep = ""
         if known_factor <= 1:
@@ -168,23 +180,32 @@ class MainWindow(QMainWindow):
                                     keep = 'Y'
         set_range = o_range
         time.sleep(3)
+#       print("\nBios is " + control)
         build_passcode(some_word, control,  set_range)
 
 
 def build_passcode(some_word, control, set_range):
     n = 1
     while n <= set_range:
-        passcode = some_word + str(n)
+        passcode = some_word + str(n) + "\n"
         to_bytes = passcode.encode(encoding='ascii')
         do_writer_do(to_bytes, n, passcode, control, set_range)
         n += 1
+
+    ser = serial.Serial(hid_port)
+    ser.baudrate = 9600
+
+    Goodbye = "\nLater..."
+    SeeYa = Goodbye.encode(encoding='ascii')
+    ser.write(SeeYa)
     print("Later...")
+    quit()
 
     
 def do_writer_do(to_bytes, n, passcode, control, set_range):
     print("This is attempt #" + str(n) + " of " + str(set_range) + ", using this password: " + passcode)
     time.sleep(1)
-    space = "\n"
+    space = "\n\n"
 
     ser = serial.Serial(hid_port)
     ser.baudrate = 9600

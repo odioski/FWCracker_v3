@@ -25,7 +25,7 @@ from PyQt6.QtWidgets import (QApplication, QCheckBox, QLabel, QLineEdit,
 try:
     from ctypes import windll 
 
-    myappid = "bookmotives.FWCracker.subproduct.version"
+    myappid = "com.bookmotives.FWCracker.subproduct.version"
 
     windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 except ImportError:
@@ -68,7 +68,7 @@ class MainWindow(QMainWindow):
         pattern.textChanged.connect(self.decouple_pattern)
 
 
-        port.setPlaceholderText("Enter your serial port here. Should be something like COM* or /dev/tty/USB*...")
+        port.setPlaceholderText("Enter your serial port here. Should be something like COM# or /dev/tty/DEVICE##...")
         port.textChanged.connect(self.decouple_port)
         
         

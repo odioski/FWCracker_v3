@@ -11,6 +11,7 @@ For more about FWCracker visit, *htttps://github.com/odioski*
 
 
 #	INSTALLATION
+A few options...
 
 #	Use Python:
 
@@ -31,11 +32,19 @@ Run FWCracker:
 Navigate to dist/FWCracker, inside is FWCracker.exe
 
 
-#	Install FWCracker, 
+#	Install FWCracker:
 
 Double-click the FWCracker_v3_Installer located in /INSTALLER
 
 Launch FWCracker
+
+#	Build your own:
+
+Use PyInstaller and the .spec
+
+	pyinstaller FWCracker.spec
+
+ Inside the /dist you'll find FWCracker.exe
 
 
 # SUPPORT

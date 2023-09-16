@@ -6,6 +6,9 @@ You can launch the GUI from the terminal or doulble-click the exe in /dist
 
 For more about FWCracker visit, *htttps://github.com/odioski*
 
+![Splash](https://github.com/odioski/FWCracker_v3/assets/93099372/93748535-d81c-49a3-bc70-61f195287b79)
+
+
 
 #	INSTALLATION
 

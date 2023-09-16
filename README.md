@@ -49,7 +49,7 @@ Use PyInstaller and the .spec
 
 # SUPPORT
 
-If pyserial-ports wont launch you can add it to your *PATH* or find your port in the Device Manager.
+If FWCracker can't find pyserial-ports, you can add it to your *PATH* or find your port in the Device Manager.
 From there just input the port and launch.
 
 

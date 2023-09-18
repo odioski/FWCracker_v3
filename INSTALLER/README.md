@@ -1,5 +1,5 @@
 You'll need Python installed to run FWCracker.
 
-You can find it at *https://python.org*
+You can find it at *https://python.org*cd 
 
-FWCracker was built with Python version 3.11.5
+FWCracker was built with Python 3.11

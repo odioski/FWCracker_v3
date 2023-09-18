@@ -29,7 +29,7 @@ Run FWCracker:
 
 #	Launch the Win exe:
 
-Navigate to dist/ inside is FWCracker.exe
+Navigate to /dist inside is FWCracker.exe
 
 
 #	Install FWCracker:
@@ -44,7 +44,7 @@ Download the code:
 
 	git clone https://github.com/odioski/FWCracker_v3.git
 
-Install PyInstaller if you don't already have it:
+Download PyInstaller if you don't already have it:
 
 	pip install pyinstaller
 

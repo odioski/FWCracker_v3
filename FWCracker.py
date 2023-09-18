@@ -119,12 +119,7 @@ class MainWindow(QMainWindow):
         QThreadPool.globalInstance().start(self.build_range)
         print("\n Welcome " + os.name)
 
-    def find_ports():
-        if os.name == "nt":
-            code = "pyserial-ports.exe -v"
-        elif os.name == "posix":
-            code = "pyserial-ports -v"
-    subprocess.run(code)
+    
 
 
 #   FWCracker, modified
@@ -211,6 +206,13 @@ def do_writer_do(to_bytes, n, passcode, control, set_range):
     int(set_range)
     time.sleep(2)       
         
+
+def find_ports():
+    if os.name == "nt":
+        code = "pyserial-ports.exe -v"
+    elif os.name == "posix":
+        code = "pyserial-ports -v"
+    subprocess.run(code)
 
 
 #   Launch pyQt app...

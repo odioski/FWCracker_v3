@@ -16,9 +16,9 @@ from PyQt6.QtWidgets import (QApplication, QCheckBox, QLabel, QLineEdit,
 #   Necessary components...
 
 
-    global bios_state
-    bios_state = "True"
-    control = bios_state
+global bios_state
+bios_state = "True"
+control = bios_state
 
     
 

@@ -15,15 +15,6 @@ from PyQt6.QtWidgets import (QApplication, QCheckBox, QLabel, QLineEdit,
 
 #   Necessary components...
 
-try:
-    from ctypes import windll 
-
-    myappid = "com.bookmotives.FWCracker.subproduct.version"
-
-    windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
-except ImportError:
-    pass
-
 
     global bios_state
     bios_state = "True"

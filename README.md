@@ -29,22 +29,30 @@ Run FWCracker:
 
 #	Launch the Win exe:
 
-Navigate to dist/FWCracker, inside is FWCracker.exe
+Navigate to dist/ inside is FWCracker.exe
 
 
 #	Install FWCracker:
 
-Double-click the FWCracker_v3_Installer located in /INSTALLER
+Run the FWCracker_v3_Installer located in /INSTALLER
 
 Launch FWCracker
 
 #	Build your own:
 
-Use PyInstaller and the .spec
+Download the code:
+
+	git clone https://github.com/odioski/FWCracker_v3.git
+
+Install PyInstaller if you don't already have it:
+
+	pip install pyinstaller
+
+Use Pyinstaller and the .spec:
 
 	pyinstaller FWCracker.spec
 
- Inside the /dist you'll find FWCracker.exe
+ Inside /dist you'll find FWCracker.exe
 
 
 # SUPPORT

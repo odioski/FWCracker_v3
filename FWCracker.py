@@ -86,7 +86,7 @@ class MainWindow(QMainWindow):
 
         self.setCentralWidget(container)
 
-#   That's it,
+#   That's it, thanks to Qt
 
 
 #   Some helpers...
@@ -110,8 +110,7 @@ class MainWindow(QMainWindow):
             control = "UNSET"
             print("Bios Confirmation: " + control)
         return(control)
-        
-    
+            
     def decouple_port(self, text):
         global hid_port
         hid_port = text
@@ -119,6 +118,13 @@ class MainWindow(QMainWindow):
     def starter(self):
         QThreadPool.globalInstance().start(self.build_range)
         print("\n Welcome " + os.name)
+
+    def find_ports():
+        if os.name == "nt":
+            code = "pyserial-ports.exe -v"
+        elif os.name == "posix":
+            code = "pyserial-ports -v"
+    subprocess.run(code)
 
 
 #   FWCracker, modified
@@ -206,13 +212,8 @@ def do_writer_do(to_bytes, n, passcode, control, set_range):
     time.sleep(2)       
         
 
-def find_ports():
-    if os.name == "nt":
-        code = "pyserial-ports.exe -v"
-    elif os.name == "posix":
-        code = "pyserial-ports -v"
-    subprocess.run(code)
 
+#   Launch pyQt app...
 
 window = MainWindow()
 window.show()

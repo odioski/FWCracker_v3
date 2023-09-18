@@ -4,13 +4,6 @@ import sys
 import time
 import serial
 
-#   Needed for flow 
-
-
-#   Needed to run the helper code
-
-
-#   Qt6 needs this and the following...
 
 basedir = os.path.dirname(__file__)
 
@@ -68,7 +61,7 @@ class MainWindow(QMainWindow):
         pattern.textChanged.connect(self.decouple_pattern)
 
 
-        port.setPlaceholderText("Enter your serial port here. Should be something like COM# or /dev/tty/DEVICE##...")
+        port.setPlaceholderText("Enter your serial port here. Should be something like COM# or /dev/tty/USB##...")
         port.textChanged.connect(self.decouple_port)
         
         

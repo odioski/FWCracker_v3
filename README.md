@@ -25,7 +25,7 @@ Get PySerial:
 
 Run FWCracker:
 
-	python -m FWCracker.py
+	python FWCracker.py
 
 #	Launch the Win exe:
 

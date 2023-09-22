@@ -220,7 +220,6 @@ def find_ports():
 window = MainWindow()
 window.show()
 
-
 app.exec()
 
 

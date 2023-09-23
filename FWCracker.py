@@ -117,7 +117,7 @@ class MainWindow(QMainWindow):
 
     def starter(self):
         QThreadPool.globalInstance().start(self.build_range)
-        print("\n Welcome " + os.name)
+        print("\nWelcome " + os.name)
 
     
 

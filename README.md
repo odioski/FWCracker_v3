@@ -57,6 +57,8 @@ Use Pyinstaller and the .spec:
 
 # SUPPORT
 
+FWCracker_v3 will install pyserial if not on the system.
+
 If FWCracker can't find pyserial-ports, you can add it to your *PATH* or find your port in the Device Manager.
 From there just input the port and launch.
 

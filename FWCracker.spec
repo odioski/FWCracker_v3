@@ -1,8 +1,8 @@
 # -*- mode: python ; coding: utf-8 -*-
 from PyInstaller.utils.hooks import collect_all
 
-datas = [('logo.png', '.'), ('FWC.ico', '.')]
-binaries = [('pyserial-ports.exe', '.')]
+datas = [('logo.png', '.'), ('FWC.ico', '.'), ('pauseBtn.png', '.'), ('FWCracker.qss', '.'), ('Splash.png', '.'), ('Software-64.png', '.'), ('wiz.png', '.'), ('Software64.png', '.'), ('Software-64.png', '.'), ('FWC-DiskA.ico', '.')]
+binaries = []
 hiddenimports = []
 tmp_ret = collect_all('serial')
 datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]

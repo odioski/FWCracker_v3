@@ -1,11 +1,16 @@
+#   FWCracker_v3...
+
 import os
 import subprocess
 import sys
 import time
 import serial
 
-
 basedir = os.path.dirname(__file__)
+
+
+#   Necessary components...
+
 
 from pathlib import Path
 
@@ -14,13 +19,14 @@ from PyQt6.QtGui import QIcon, QPixmap
 from PyQt6.QtWidgets import (QApplication, QCheckBox, QLabel, QLineEdit,
                              QMainWindow, QPushButton, QVBoxLayout, QHBoxLayout, QWidget)
 
-#   Necessary components...
-
 global newData
+global some_word
+global global_number_pattern
+global hid_port
+global control
 
 
 #   From here we'll attempt to integrate a workable GUI for this app
-
 
 app = QApplication([])
 
@@ -28,7 +34,6 @@ class MainWindow(QMainWindow):
 
     def __init__(self):
         super().__init__()
-
     
         logo = QLabel("FWCracker")
         logo.setPixmap(QPixmap(os.path.join(basedir, "logo.png")))
@@ -45,7 +50,6 @@ class MainWindow(QMainWindow):
         Progress = QLabel("Progress")
         Progress.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
-        
         word.setPlaceholderText("Enter the word or phrase here...")
         word.textChanged.connect(self.decouple_word)
 
@@ -55,15 +59,12 @@ class MainWindow(QMainWindow):
         port.setPlaceholderText("Enter your serial port here. Should be something like COM# or /dev/tty/USB##...")
         port.textChanged.connect(self.decouple_port)
         
-        
         control = QCheckBox("Bios needs confirmation?")
         control.stateChanged.connect(self.decouple_control)
-
 
         launchButton = QPushButton("Launch")
         launchButton.setFixedHeight(30)
         launchButton.clicked.connect(self.starter)
-
 
         global pauseButton
 
@@ -78,7 +79,6 @@ class MainWindow(QMainWindow):
         Output.setFixedHeight(250)
         Output.setAlignment(Qt.AlignmentFlag.AlignCenter)
         Output.setWordWrap(True)
-
               
         findPorts = QPushButton("List Ports")
         findPorts.clicked.connect(find_ports)
@@ -106,9 +106,11 @@ class MainWindow(QMainWindow):
         app_container = QWidget()
         app_container.setLayout(layout)
 
+
 #   self.setFixedSize(QSize(###, 400))
 
         self.setCentralWidget(app_container)
+
 
 #   That's it, thanks to py(Qt)
 
@@ -116,120 +118,118 @@ class MainWindow(QMainWindow):
 #   Some helpers...
 
     def decouple_word(self, text):
-        global some_word
         some_word = text
+        Output.setText("Word portion is set to: " + some_word)
+        if text == "":
+            Output.setText("Output will be displayed here...")
     
+
     def decouple_pattern(self, text):
-        global global_number_pattern
         if text.isdecimal() == False:
             newData = "Need a number here..."
-            update_results(newData)
+            Output.setText(newData)
         else:
             global_number_pattern = text
+            Output.setText("Number poriton is set to: " + global_number_pattern)
+        if text == "":
+            Output.setText("Output will be displayed here...")
     
+
     def decouple_control(self, state):
-        global control
         if state > 0:
             control = "SET"
             newData = "Bios Confirmation: " + control
-            update_results(newData)
+            Output.setText(newData)
         else:
             control = "UNSET"
             newData = "Bios Confirmation: " + control
-            update_results(newData)
-#           return(control)
+            Output.setText(newData)
             
+
     def decouple_port(self, text):
-        global hid_port
         hid_port = text
+        newData = "Your serial port is set: " + text
+        Output.setText(newData)
+
 
     def starter(self):
         QThreadPool.globalInstance().start(self.build_range)
 
 
 #   FWCracker, modified
-    
 
     def build_range(self):
+        global control
         newData = "\nWelcome " + os.name + " user..."
-        update_results(newData)
+        Output.setText(newData)
         time.sleep(3)
         known_factor = int(global_number_pattern) / 10
         
         if known_factor <= 1:
             o_range = 10
             newData = "\n10 different possibilities based on this info...\n"
-            update_results(newData)
+            Output.setText(newData)
             
         else:
             if known_factor <= 10:
                 o_range = 100
                 newData = "\n100 different possiblities based on this info...\n"
-                update_results(newData)
+                Output.setText(newData)
                 
             else:
                 if known_factor <= 100:
                     o_range = 1000
                     newData = "\n1,000 different possiblities based on this info...\n"
-                    update_results(newData)
+                    Output.setText(newData)
                     
                 else:
                     if known_factor <= 1000:
                         o_range = 10000
                         newData = "\n10,000 different possiblities based on this info...\n"
-                        update_results(newData)
+                        Output.setText(newData)
                         
                     else:
                         if known_factor <= 10000:
                             o_range = 100000
                             newData = "\nBased on the number you provided this will take a very long time.\n"
-                            update_results(newData)
+                            Output.setText(newData)
                             
                         else:
                             if known_factor <= 100000:
                                 o_range = 1000000
                                 newData = "\nPractically impossible, theoretically....might as well continue..."
-                                update_results(newData)
+                                Output.setText(newData)
                                 
                             else:
                                 if known_factor <= 1000000:
                                     o_range = 1000000
                                     newData = "\nOkey dokey..."
-                                    update_results(newData)
-                                    
+                                    Output.setText(newData)
+        global set_range
         set_range = o_range
         time.sleep(3)
-        build_passcode(some_word, control, set_range)
+        build_passcode()
 
 
-def build_passcode(some_word, control, set_range):
+def build_passcode():
+    global n
     n = 1
+    global to_bytes
+    global passcode
     while n <= set_range:
         passcode = some_word + str(n) + "\n"
         to_bytes = passcode.encode(encoding='ascii')
-        do_writer_do(to_bytes, n, passcode, control, set_range)
+        do_writer_do()
         n += 1
-
-        if pauseButton.changeEvent:
-            break
-            FWCracker_status = "FWCracker is paused..."
-            newData = FWCracker_status
-            update_results(newData)
-        elif pauseButton.changeEvent:
-            continue
-
     ser = serial.Serial(hid_port)
     ser.baudrate = 9600
 
     newData = "Later..."
-    update_results(newData)
+    Output.setText(newData)
     quit()
 
     
-def do_writer_do(to_bytes, n, passcode, control, set_range):
-    
-    newData = "Completed attempt #" + str(n) + " of " + str(set_range) + ", using password: " + passcode 
-       
+def do_writer_do():  
     time.sleep(1)
     space = "\n\n"
 
@@ -238,15 +238,19 @@ def do_writer_do(to_bytes, n, passcode, control, set_range):
 
     space_to_bytes = space.encode(encoding='ascii')
     ser.write(to_bytes)
-    time.sleep(1)
-
-    update_results(newData)
+    
+    newData = "Completed attempt #" + str(n) + " of " + str(set_range) + ", using password: " + passcode
+    Output.setText(newData)
     
     if str(control) == 'SET':
         ser.write(space_to_bytes)
+
+    time.sleep(2)
+
     int(n)
     int(set_range)
-    time.sleep(2) 
+    
+    time.sleep(1)
 
 
 def installer():
@@ -255,20 +259,19 @@ def installer():
         status = online[0]
         ping_output = online[1]
         newData = ping_output
-        update_results(newData)
+        Output.setText(newData)
 
         if status > 0:
             install = 'pip install pyserial'
             newData = subprocess.getoutput(install)
-            update_results(newData)
+            Output.setText(newData)
             time.sleep(3)
         else:
-            newData = "FWCracker needs to be online to get pyserial. Connect to the internet and restart app."
-            update_results(newData)
+            newData = "FWCracker needs to be online only to get pyserial. Connect to the internet and restart app.\n"
+            Output.setText(newData)
             time.sleep(5)
             quit()      
         
-
 
 def find_ports():
     pyserial_exists = 'pyserial-ports'
@@ -277,15 +280,10 @@ def find_ports():
         installer()
     code = 'pyserial-ports -v'
     newData = subprocess.getoutput(code)
-    update_results(newData) 
-
-
-def update_results(newData):
-    Output.setText(newData)
+    Output.setText(newData) 
 
 
 #   Launch pyQt app...
-
 
 window = MainWindow()
 window.show()

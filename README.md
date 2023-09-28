@@ -1,3 +1,6 @@
+#	README
+You should definitely read this...
+
 #   FWCracker_v3 w/GUI
 
 Same as version 2 with more ease and use in deployment. 
@@ -29,14 +32,22 @@ Run FWCracker:
 
 #	Launch the Win exe:
 
+Download the code:
+
+	git clone https://github.com/odioski/FWCracker_v3.git
+
 Navigate to /dist inside is FWCracker.exe
 
 
 #	Install FWCracker:
 
+Download the code:
+
+	git clone https://github.com/odioski/FWCracker_v3.git
+
 Run the FWCracker_v3_Installer located in /INSTALLER
 
-Launch FWCracker
+Launch FWCracker from your Desktop
 
 #	Build your own:
 
@@ -57,7 +68,7 @@ Use Pyinstaller and the .spec:
 
 # SUPPORT
 
-FWCracker_v3 will install pyserial if not on the system.
+FWCracker_v3's installer will *install* pyserial if not on the system.
 
 If FWCracker can't find pyserial-ports, you can add it to your *PATH* or find your port in the Device Manager.
 From there just input the port and launch.

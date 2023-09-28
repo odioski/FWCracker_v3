@@ -1,7 +1,7 @@
 # -*- mode: python ; coding: utf-8 -*-
 from PyInstaller.utils.hooks import collect_all
 
-datas = [('logo.png', '.'), ('FWC.ico', '.'), ('pauseBtn.png', '.'), ('FWCracker.qss', '.'), ('Splash.png', '.'), ('Software-64.png', '.'), ('wiz.png', '.'), ('Software64.png', '.'), ('Software-64.png', '.'), ('FWC-DiskA.ico', '.')]
+datas = [('logo.png', '.'), ('pauseBtn.png', '.'), ('FWCracker.qss', '.'), ('Splash.png', '.'), ('wiz.png', '.'), ('Software64.png', '.'), ('FWC.ico', '.')]
 binaries = []
 hiddenimports = []
 tmp_ret = collect_all('serial')

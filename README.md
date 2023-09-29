@@ -1,6 +1,3 @@
-#	README
-You should definitely read this...
-
 #   FWCracker_v3 w/GUI
 
 Same as version 2 with more ease and use in deployment. 

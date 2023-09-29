@@ -25,6 +25,10 @@ global global_number_pattern
 global hid_port
 global control
 
+some_word               = "NULL"
+global_number_pattern   = "NULL"
+hid_port                = "NULL"
+control                 = "UNSET" 
 
 #   From here we'll attempt to integrate a workable GUI for this app
 
@@ -118,6 +122,7 @@ class MainWindow(QMainWindow):
 #   Some helpers...
 
     def decouple_word(self, text):
+        global some_word
         some_word = text
         Output.setText("Word portion is set to: " + some_word)
         if text == "":
@@ -125,6 +130,7 @@ class MainWindow(QMainWindow):
     
 
     def decouple_pattern(self, text):
+        global global_number_pattern
         if text.isdecimal() == False:
             newData = "Need a number here..."
             Output.setText(newData)
@@ -147,19 +153,22 @@ class MainWindow(QMainWindow):
             
 
     def decouple_port(self, text):
+        global hid_port
         hid_port = text
         newData = "Your serial port is set: " + text
         Output.setText(newData)
 
 
     def starter(self):
-        QThreadPool.globalInstance().start(self.build_range)
+        if hid_port != "NULL" and some_word != "NULL" and global_number_pattern != "NULL":
+            QThreadPool.globalInstance().start(self.build_range)
+        else:
+            Output.setText("Please fill out form...")
 
 
 #   FWCracker, modified
 
     def build_range(self):
-        global control
         newData = "\nWelcome " + os.name + " user..."
         Output.setText(newData)
         time.sleep(3)

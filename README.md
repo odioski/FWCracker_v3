@@ -9,7 +9,8 @@ You can launch the GUI from the terminal or run the exe in /dist
 
 For more about FWCracker visit, *https://github.com/odioski*
 
-![Splash](https://github.com/odioski/FWCracker_v3/assets/93099372/93748535-d81c-49a3-bc70-61f195287b79)
+
+![Screenshot 2023-09-29 175423](https://github.com/odioski/FWCracker_v3/assets/93099372/a0449e05-52ec-46ad-aa59-85596a00b03e)
 
 
 

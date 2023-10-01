@@ -274,11 +274,11 @@ def installer():
             install = 'pip install pyserial'
             newData = subprocess.getoutput(install)
             Output.setText(newData)
-            time.sleep(3)
+            time.sleep(2)
         else:
             newData = "FWCracker needs to be online only to get pyserial. Connect to the internet and restart app.\n"
             Output.setText(newData)
-            time.sleep(5)
+            time.sleep(2)
             quit()      
         
 

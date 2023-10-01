@@ -248,7 +248,7 @@ def do_writer_do():
     space_to_bytes = space.encode(encoding='ascii')
     ser.write(to_bytes)
     
-    newData = "Completed attempt #" + str(n) + " of " + str(set_range) + ", using password: " + passcode
+    newData = "This is attempt #" + str(n) + " of " + str(set_range) + ", using password: " + passcode
     Output.setText(newData)
     
     if str(control) == 'SET':

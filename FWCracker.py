@@ -25,9 +25,9 @@ global global_number_pattern
 global hid_port
 global control
 
-some_word               = "NULL"
-global_number_pattern   = "NULL"
-hid_port                = "NULL"
+some_word               = "NIL"
+global_number_pattern   = "NIL"
+hid_port                = "NIL"
 control                 = "UNSET" 
 
 #   From here we'll attempt to integrate a workable GUI for this app
@@ -160,7 +160,7 @@ class MainWindow(QMainWindow):
 
 
     def starter(self):
-        if hid_port != "NULL" and some_word != "NULL" and global_number_pattern != "NULL":
+        if hid_port != "NIL" and some_word != "NIL" and global_number_pattern != "NIL":
             QThreadPool.globalInstance().start(self.build_range)
         else:
             Output.setText("Please fill out the form...")

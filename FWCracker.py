@@ -278,7 +278,7 @@ def installer():
         else:
             newData = "FWCracker needs to be online only to get pyserial. Connect to the Internet and restart app.\n"
             Output.setText(newData)
-            time.sleep(2)
+            time.sleep(3)
             quit()      
         
 

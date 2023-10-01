@@ -163,7 +163,7 @@ class MainWindow(QMainWindow):
         if hid_port != "NULL" and some_word != "NULL" and global_number_pattern != "NULL":
             QThreadPool.globalInstance().start(self.build_range)
         else:
-            Output.setText("Please fill out form...")
+            Output.setText("Please fill out the form...")
 
 
 #   FWCracker, modified
@@ -248,7 +248,7 @@ def do_writer_do():
     space_to_bytes = space.encode(encoding='ascii')
     ser.write(to_bytes)
     
-    newData = "Completed attempt #" + str(n) + " of " + str(set_range) + ", using password: " + passcode
+    newData = "This is attempt #" + str(n) + " of " + str(set_range) + ", using password: " + passcode
     Output.setText(newData)
     
     if str(control) == 'SET':
@@ -274,11 +274,11 @@ def installer():
             install = 'pip install pyserial'
             newData = subprocess.getoutput(install)
             Output.setText(newData)
-            time.sleep(3)
+            time.sleep(2)
         else:
-            newData = "FWCracker needs to be online only to get pyserial. Connect to the internet and restart app.\n"
+            newData = "FWCracker needs to be online only to get pyserial. Connect to the Internet and restart app.\n"
             Output.setText(newData)
-            time.sleep(5)
+            time.sleep(2)
             quit()      
         
 

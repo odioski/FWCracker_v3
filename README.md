@@ -1,6 +1,3 @@
-#	README
-You should definitely read this...
-
 #   FWCracker_v3 w/GUI
 
 Same as version 2 with more ease and use in deployment. 
@@ -9,7 +6,8 @@ You can launch the GUI from the terminal or run the exe in /dist
 
 For more about FWCracker visit, *https://github.com/odioski*
 
-![Splash](https://github.com/odioski/FWCracker_v3/assets/93099372/93748535-d81c-49a3-bc70-61f195287b79)
+
+![Screenshot 2023-09-29 175423](https://github.com/odioski/FWCracker_v3/assets/93099372/a0449e05-52ec-46ad-aa59-85596a00b03e)
 
 
 
@@ -68,13 +66,13 @@ Use Pyinstaller and the .spec:
 
 # SUPPORT
 
-FWCracker_v3's installer will *install* pyserial if not on the system.
+FWCracker_v3 will *install* pyserial if not on the system.
 
-If FWCracker can't find pyserial-ports, you can add it to your *PATH* or find your port in the Device Manager.
+If FWCracker can't find pyserial-ports you can add it to your *PATH* or find your port in the Device Manager.
 From there just input the port and launch.
 
 As in previous versions you'll need a hid compliant keyboard emulator. 
 
-You can see what one looks like by visiting, *https://tinyurl.com/5xe4n4mn*
+You can see what one looks like by visiting *https://tinyurl.com/5xe4n4mn*
 
 

@@ -163,7 +163,7 @@ class MainWindow(QMainWindow):
         if hid_port != "NULL" and some_word != "NULL" and global_number_pattern != "NULL":
             QThreadPool.globalInstance().start(self.build_range)
         else:
-            Output.setText("Please fill out form...")
+            Output.setText("Please fill out the form...")
 
 
 #   FWCracker, modified

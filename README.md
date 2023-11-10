@@ -28,7 +28,7 @@ Run FWCracker
 
 	python FWCracker.py
 
-#	Launch the Win exe:
+#	Launch the Win executable
 
 Download the code:
 

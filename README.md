@@ -20,9 +20,9 @@ Download the code:
 	
 	git clone https://github.com/odioski/FWCracker_v3.git
 
-Get PySerial:
+Get PySerial and pyQt6
 	
-	pip install pyserial
+	pip install pyserial pyQt6
 
 Run FWCracker:
 

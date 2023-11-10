@@ -14,7 +14,7 @@ For more about FWCracker visit, *https://github.com/odioski/FWCracker_v2*
 #	INSTALLATION
 A few options...
 
-#	Use Python:
+#	Use Python
 
 Download the code:
 	
@@ -24,7 +24,7 @@ Get PySerial and pyQt6
 	
 	pip install pyserial pyQt6
 
-Run FWCracker:
+Run FWCracker
 
 	python FWCracker.py
 
@@ -37,7 +37,7 @@ Download the code:
 Navigate to /dist inside is FWCracker.exe
 
 
-#	Install FWCracker:
+#	Install FWCracker
 
 Download the code:
 
@@ -47,7 +47,7 @@ Run the FWCracker_v3_Installer located in /INSTALLER
 
 Launch FWCracker from your Desktop
 
-#	Build your own:
+#	Build your own
 
 Download the code:
 

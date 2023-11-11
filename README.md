@@ -75,4 +75,9 @@ As in previous versions you'll need a serial to hid keyboard emulator.
 
 You can see what one looks like by visiting *https://tinyurl.com/5xe4n4mn*
 
+# Linux Users:
+Lately, most Linux I encounter run python 3.10 and pyQt5. No one's asked yet but I don't see any issues with contributions.
+Also, be wary of your windows manager.
+
+FWCracker is built with python 3.11 and pyQt6.
 

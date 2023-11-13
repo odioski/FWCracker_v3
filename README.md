@@ -53,9 +53,9 @@ Download the code:
 
 	git clone https://github.com/odioski/FWCracker_v3.git
 
-Download PyInstaller if you don't already have it:
+Download PyInstaller and pyQt6 if you don't already have those:
 
-	pip install pyinstaller
+	pip install pyinstaller pyQt6
 
 Use Pyinstaller and the .spec:
 

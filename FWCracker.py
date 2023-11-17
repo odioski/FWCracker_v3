@@ -230,8 +230,6 @@ def build_passcode():
         to_bytes = passcode.encode(encoding='ascii')
         do_writer_do()
         n += 1
-    ser = serial.Serial(hid_port)
-    ser.baudrate = 9600
 
     newData = "Later..."
     Output.setText(newData)
@@ -260,6 +258,9 @@ def do_writer_do():
     int(set_range)
     
     time.sleep(1)
+
+
+#   Workers...
 
 
 def installer():

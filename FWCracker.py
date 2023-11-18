@@ -50,10 +50,8 @@ class MainWindow(QMainWindow):
         word = QLineEdit()
         pattern = QLineEdit()
         port = QLineEdit()
-      
-        Progress = QLabel("Progress")
-        Progress.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
+      
         word.setPlaceholderText("Enter the word or phrase here...")
         word.textChanged.connect(self.decouple_word)
 

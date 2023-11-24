@@ -279,7 +279,7 @@ def installer():
             Output.setText(newData)
             time.sleep(3)
             quit()      
-        
+
 
 def find_ports():
     pyserial_exists = 'pyserial-ports'

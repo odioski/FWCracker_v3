@@ -262,23 +262,23 @@ def do_writer_do():
 
 
 def installer():
-        check_online = 'ping yahoo.com'
-        online = subprocess.getstatusoutput(check_online)
-        status = online[0]
-        ping_output = online[1]
-        newData = ping_output
+    check_online = 'ping yahoo.com'
+    online = subprocess.getstatusoutput(check_online)
+    status = online[0]
+    ping_output = online[1]
+    newData = ping_output
+    Output.setText(newData)
+    
+    if status == 0:
+        install = 'pip install pyserial'
+        newData = subprocess.getoutput(install)
         Output.setText(newData)
-
-        if status > 0:
-            install = 'pip install pyserial'
-            newData = subprocess.getoutput(install)
-            Output.setText(newData)
-            time.sleep(2)
-        else:
-            newData = "FWCracker needs to be online only to get pyserial. Connect to the Internet and restart app.\n"
-            Output.setText(newData)
-            time.sleep(3)
-            quit()      
+        time.sleep(2)
+    else:
+        newData = "FWCracker needs to be online only to get pyserial. Connect to the Internet and restart app.\n"
+        Output.setText(newData)
+        time.sleep(3)
+        quit()      
 
 
 def find_ports():

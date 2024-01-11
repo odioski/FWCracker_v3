@@ -223,9 +223,10 @@ def build_passcode():
     n = 1
     global to_bytes
     global passcode
+    global passcode_to_bytes
     while n <= set_range:
         passcode = some_word + str(n) + "\n"
-        to_bytes = passcode.encode(encoding='ascii')
+        passcode_to_bytes = passcode.encode(encoding='ascii')
         do_writer_do()
         n += 1
 
@@ -242,7 +243,8 @@ def do_writer_do():
     ser.baudrate = 9600
 
     space_to_bytes = space.encode(encoding='ascii')
-    ser.write(to_bytes)
+    
+    ser.write(passcode_to_bytes)
     
     newData = "This is attempt #" + str(n) + " of " + str(set_range) + ", using password: " + passcode
     Output.setText(newData)

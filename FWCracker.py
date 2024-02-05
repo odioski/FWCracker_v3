@@ -58,7 +58,7 @@ class MainWindow(QMainWindow):
         pattern.setPlaceholderText("Enter the number portion here...")
         pattern.textChanged.connect(self.decouple_pattern)
 
-        port.setPlaceholderText("Enter your serial port here. Should be something like COM# or /dev/tty/USB##...")
+        port.setPlaceholderText("Enter your serial port here. Should be something like COM# or /dev/tty/USB###...")
         port.textChanged.connect(self.decouple_port)
         
         control = QCheckBox("Bios needs confirmation?")

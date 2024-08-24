@@ -1,5 +1,6 @@
 #   FWCracker_v3...
 
+
 import os
 import subprocess
 import sys
@@ -7,7 +8,6 @@ import time
 import serial
 
 basedir = os.path.dirname(__file__)
-
 
 #   Necessary components...
 
@@ -30,7 +30,8 @@ global_number_pattern   = "NIL"
 hid_port                = "NIL"
 control                 = "UNSET" 
 
-#   From here we'll attempt to integrate a workable GUI for this app
+#   From here we'll integrate a workable GUI for this app
+
 
 app = QApplication([])
 
@@ -108,16 +109,12 @@ class MainWindow(QMainWindow):
         app_container = QWidget()
         app_container.setLayout(layout)
 
-
-#   self.setFixedSize(QSize(###, 400))
-
         self.setCentralWidget(app_container)
 
-
-#   That's it, thanks to py(Qt)
-
+    #   self.setFixedSize(QSize(###, 400))
 
 #   Some helpers...
+
 
     def decouple_word(self, text):
         global some_word
@@ -262,44 +259,101 @@ def do_writer_do():
 
 #   Workers...
 
-
-def installer():
-    check_online = 'ping yahoo.com'
-    online = subprocess.getstatusoutput(check_online)
-    status = online[0]
-    ping_output = online[1]
-    newData = ping_output
-    Output.setText(newData)
-    
-    if status == 0:
-        install = 'pip install pyserial'
-        newData = subprocess.getoutput(install)
-        Output.setText(newData)
-        time.sleep(2)
-    else:
-        newData = "FWCracker needs to be online only to get pyserial. Connect to the Internet and restart app.\n"
-        Output.setText(newData)
-        time.sleep(3)
-        quit()      
-
-
 def find_ports():
     pyserial_exists = 'pyserial-ports'
-    check = subprocess.getstatusoutput(pyserial_exists)[0]
-    if check > 0:
+    check = subprocess.getstatusoutput(pyserial_exists)
+    if (check[0]) > 0:
         installer()
     code = 'pyserial-ports -v'
     newData = subprocess.getoutput(code)
     Output.setText(newData) 
 
+##################################################################################################################
+##################################################################################################################
+
+#   Upgraded installer()
+#   Hopefully this will solve any issues with one's path...
+
+
+def installer():
+    
+    global pyVersion
+    global pyVersion_string
+
+    try: # getting python version
+
+        get_pyVersion = "python -V"
+        pyVersion = subprocess.run(get_pyVersion)
+        pyVersion_string = str(pyVersion)
+
+    except ValueError as e:
+
+        newData = (e + "\n...Python may not be in the usual place, try reinstalling,")
+        Output.setText(newData)
+
+    if pyVersion:
+        
+        try: # setting temp Path to AppData if got python version
+            
+            set_path = 'set PATH="%PATH%;C:\\~\\AppData\\Roaming\\Python\\' + pyVersion_string + '\\Scripts\\"'
+                # use setx to set permanent addition(s) to PATH
+
+            newData = ('\n' + set_path + ' will be temporarily added to your PATH. Use setx to change permanently.')
+            
+            Output.setText(newData)
+
+            subprocess.run(set_path)
+
+            added_path = 'C:\\~\\AppData\\Roaming\\Python\\' + pyVersion_string + '\\Scripts\\'
+            Output.setText('Path is set to: ' + added_path.capitalize)
+
+        except ValueError as e:
+            
+            newData = (e + "\n...cannot set path. Might not have persmission,")    
+
+    try: # installing pyserial via pip
+
+        check_online = 'ping yahoo.com'
+
+        subprocess.run(check_online)
+
+        if (check_online[0]) == 0:
+
+            try: 
+
+                code = 'python.exe -m pip install pyserial'
+                install = subprocess.getoutput(code)
+                newData = (install[1])
+                Output.setText(newData)
+
+            except ValueError as e:
+
+                newData = (e + "\n...sorry, your Python installation is not in the usual location or missing.")
+                Output.setText(newData)           
+
+        else:
+            newData = "FWCracker needs to be online only to get pyserial. Connect to the Internet and restart app.\n"
+            Output.setText(newData)
+            time.sleep(3)
+            quit()  
+        
+    except ValueError as e:
+
+        newData = e
+        Output.setText(newData)
+        time.sleep(15)
+        quit()
+
+###################################################################################################################
+###################################################################################################################
 
 #   Launch pyQt app...
+
 
 window = MainWindow()
 window.show()
 
 app.setStyleSheet(Path(os.path.join(basedir, 'FWCracker.qss')).read_text())
 app.exec()
-
 
 #   FWCracker_v3...

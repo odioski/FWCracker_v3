@@ -1,0 +1,691 @@
+([('FWCracker.exe',
+   'Q:\\PythonCode\\FWCracker_v3\\build\\FwCracker\\FWCracker.exe',
+   'EXECUTABLE'),
+  ('python312.dll', 'C:\\Program Files\\Python312\\python312.dll', 'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\styles\\qmodernwindowsstyle.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\plugins\\styles\\qmodernwindowsstyle.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\opengl32sw.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\bin\\opengl32sw.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\platforms\\qminimal.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qtiff.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qsvg.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qpdf.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qpdf.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\platforms\\qoffscreen.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\platforms\\qwindows.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qwebp.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('_decimal.pyd',
+   'C:\\Program Files\\Python312\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Program Files\\Python312\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd', 'C:\\Program Files\\Python312\\DLLs\\_lzma.pyd', 'EXTENSION'),
+  ('_bz2.pyd', 'C:\\Program Files\\Python312\\DLLs\\_bz2.pyd', 'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Program Files\\Python312\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('select.pyd', 'C:\\Program Files\\Python312\\DLLs\\select.pyd', 'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Program Files\\Python312\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Program Files\\Python312\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd', 'C:\\Program Files\\Python312\\DLLs\\_queue.pyd', 'EXTENSION'),
+  ('_wmi.pyd', 'C:\\Program Files\\Python312\\DLLs\\_wmi.pyd', 'EXTENSION'),
+  ('PyQt6\\QtWidgets.pyd',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\QtWidgets.pyd',
+   'EXTENSION'),
+  ('PyQt6\\sip.cp312-win_amd64.pyd',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\sip.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('PyQt6\\QtGui.pyd',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\QtGui.pyd',
+   'EXTENSION'),
+  ('PyQt6\\QtCore.pyd',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\QtCore.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Program Files\\Python312\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Widgets.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Widgets.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\MSVCP140.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\bin\\MSVCP140.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Core.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Core.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Gui.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Gui.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Network.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Network.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Program Files\\Python312\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Svg.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Svg.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Pdf.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Pdf.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Program Files\\Python312\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Program Files\\Python312\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('python3.dll', 'C:\\Program Files\\Python312\\python3.dll', 'BINARY'),
+  ('PyQt6\\Qt6\\bin\\MSVCP140_2.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\bin\\MSVCP140_2.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\VCRUNTIME140.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\bin\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\MSVCP140_1.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\bin\\MSVCP140_1.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\VCRUNTIME140_1.dll',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\bin\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('FWC.ico', 'Q:\\PythonCode\\FWCracker_v3\\FWC.ico', 'DATA'),
+  ('FWCracker.qss', 'Q:\\PythonCode\\FWCracker_v3\\FWCracker.qss', 'DATA'),
+  ('Software64.png', 'Q:\\PythonCode\\FWCracker_v3\\Software64.png', 'DATA'),
+  ('Splash.png', 'Q:\\PythonCode\\FWCracker_v3\\Splash.png', 'DATA'),
+  ('logo.png', 'Q:\\PythonCode\\FWCracker_v3\\logo.png', 'DATA'),
+  ('pauseBtn.png', 'Q:\\PythonCode\\FWCracker_v3\\pauseBtn.png', 'DATA'),
+  ('pyserial-3.5.dist-info\\DESCRIPTION.rst',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\pyserial-3.5.dist-info\\DESCRIPTION.rst',
+   'DATA'),
+  ('pyserial-3.5.dist-info\\INSTALLER',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\pyserial-3.5.dist-info\\INSTALLER',
+   'DATA'),
+  ('pyserial-3.5.dist-info\\METADATA',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\pyserial-3.5.dist-info\\METADATA',
+   'DATA'),
+  ('pyserial-3.5.dist-info\\RECORD',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\pyserial-3.5.dist-info\\RECORD',
+   'DATA'),
+  ('pyserial-3.5.dist-info\\REQUESTED',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\pyserial-3.5.dist-info\\REQUESTED',
+   'DATA'),
+  ('pyserial-3.5.dist-info\\WHEEL',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\pyserial-3.5.dist-info\\WHEEL',
+   'DATA'),
+  ('pyserial-3.5.dist-info\\entry_points.txt',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\pyserial-3.5.dist-info\\entry_points.txt',
+   'DATA'),
+  ('pyserial-3.5.dist-info\\metadata.json',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\pyserial-3.5.dist-info\\metadata.json',
+   'DATA'),
+  ('pyserial-3.5.dist-info\\top_level.txt',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\pyserial-3.5.dist-info\\top_level.txt',
+   'DATA'),
+  ('serial\\__init__.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\__init__.py',
+   'DATA'),
+  ('serial\\__main__.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\__main__.py',
+   'DATA'),
+  ('serial\\rfc2217.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\rfc2217.py',
+   'DATA'),
+  ('serial\\rs485.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\rs485.py',
+   'DATA'),
+  ('serial\\serialcli.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\serialcli.py',
+   'DATA'),
+  ('serial\\serialjava.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\serialjava.py',
+   'DATA'),
+  ('serial\\serialposix.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\serialposix.py',
+   'DATA'),
+  ('serial\\serialutil.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\serialutil.py',
+   'DATA'),
+  ('serial\\serialwin32.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\serialwin32.py',
+   'DATA'),
+  ('serial\\threaded\\__init__.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\threaded\\__init__.py',
+   'DATA'),
+  ('serial\\tools\\__init__.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\tools\\__init__.py',
+   'DATA'),
+  ('serial\\tools\\hexlify_codec.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\tools\\hexlify_codec.py',
+   'DATA'),
+  ('serial\\tools\\list_ports.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\tools\\list_ports.py',
+   'DATA'),
+  ('serial\\tools\\list_ports_common.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\tools\\list_ports_common.py',
+   'DATA'),
+  ('serial\\tools\\list_ports_linux.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\tools\\list_ports_linux.py',
+   'DATA'),
+  ('serial\\tools\\list_ports_osx.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\tools\\list_ports_osx.py',
+   'DATA'),
+  ('serial\\tools\\list_ports_posix.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\tools\\list_ports_posix.py',
+   'DATA'),
+  ('serial\\tools\\list_ports_windows.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\tools\\list_ports_windows.py',
+   'DATA'),
+  ('serial\\tools\\miniterm.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\tools\\miniterm.py',
+   'DATA'),
+  ('serial\\urlhandler\\__init__.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\urlhandler\\__init__.py',
+   'DATA'),
+  ('serial\\urlhandler\\protocol_alt.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\urlhandler\\protocol_alt.py',
+   'DATA'),
+  ('serial\\urlhandler\\protocol_cp2110.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\urlhandler\\protocol_cp2110.py',
+   'DATA'),
+  ('serial\\urlhandler\\protocol_hwgrep.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\urlhandler\\protocol_hwgrep.py',
+   'DATA'),
+  ('serial\\urlhandler\\protocol_loop.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\urlhandler\\protocol_loop.py',
+   'DATA'),
+  ('serial\\urlhandler\\protocol_rfc2217.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\urlhandler\\protocol_rfc2217.py',
+   'DATA'),
+  ('serial\\urlhandler\\protocol_socket.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\urlhandler\\protocol_socket.py',
+   'DATA'),
+  ('serial\\urlhandler\\protocol_spy.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\urlhandler\\protocol_spy.py',
+   'DATA'),
+  ('serial\\win32.py',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\serial\\win32.py',
+   'DATA'),
+  ('wiz.png', 'Q:\\PythonCode\\FWCracker_v3\\wiz.png', 'DATA'),
+  ('base_library.zip',
+   'Q:\\PythonCode\\FWCracker_v3\\build\\FwCracker\\base_library.zip',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_lt.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_lt.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_it.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_it.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ka.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ka.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_de.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_de.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ja.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_nl.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_fi.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_nl.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ka.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ka.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ka.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_ka.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_fa.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_fa.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_gl.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_nn.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_nn.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ru.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ru.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_uk.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_pl.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_sl.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ko.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_bg.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_lv.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_tr.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_fr.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ar.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_hr.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_es.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ar.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_cs.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ko.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_nn.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nn.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_cs.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_hu.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_fr.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_fr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_da.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_da.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_it.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_it.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_hr.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_it.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_pl.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ca.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_he.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_he.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_fa.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fa.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_en.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_bg.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_he.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ar.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_gd.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ca.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_hr.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_hu.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_nn.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nn.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_bg.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_bg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_tr.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_tr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ja.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_gd.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_gd.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_da.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_lv.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_lv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_sk.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ja.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_uk.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_uk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_en.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_es.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_cs.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_sk.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_hu.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_da.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_da.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_fi.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_fi.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_fr.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_fr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_es.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_es.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_pl.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_pl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sl.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_sl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_tr.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_tr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sv.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_sv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_uk.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_uk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ca.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_nl.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_en.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_en.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_gl.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_gl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ru.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sk.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_sk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_de.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ko.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_ko.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_de.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
+   'C:\\Users\\Omar '
+   'Daniels\\AppData\\Roaming\\Python\\Python312\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
+   'DATA')],)

@@ -272,7 +272,7 @@ def find_ports():
 ##################################################################################################################
 
 #   Upgraded installer()
-#   Hopefully this will solve any issues with one's path...
+#   Hopefully this will solve any issues with one's PATH...
 
 
 def installer():
@@ -286,30 +286,31 @@ def installer():
         pyVersion = subprocess.run(get_pyVersion)
         pyVersion_string = str(pyVersion)
 
+        if pyVersion:
+            
+            try: # setting (temp) ~\PATH to AppData if got python version
+
+                
+                set_path = 'set PATH="%PATH%;C:\\~\\AppData\\Roaming\\Python\\' + pyVersion_string + '\\Scripts\\"'
+                    # use setx to set permanent addition(s) to PATH
+
+                newData = ('\n' + set_path + ' will be temporarily added to your PATH. Use setx to change permanently.')
+                
+                Output.setText(newData)
+
+                subprocess.run(set_path)
+
+                added_path = 'C:\\~\\AppData\\Roaming\\Python\\' + pyVersion_string + '\\Scripts\\'
+                Output.setText('Path is set to: ' + added_path.capitalize)
+
+            except ValueError as e:
+                
+                newData = (e + "\n...cannot set path. Might not have persmission,")
+
     except ValueError as e:
 
         newData = (e + "\n...Python may not be in the usual place, try reinstalling,")
-        Output.setText(newData)
-
-    if pyVersion:
-        
-        try: # setting temp Path to AppData if got python version
-            
-            set_path = 'set PATH="%PATH%;C:\\~\\AppData\\Roaming\\Python\\' + pyVersion_string + '\\Scripts\\"'
-                # use setx to set permanent addition(s) to PATH
-
-            newData = ('\n' + set_path + ' will be temporarily added to your PATH. Use setx to change permanently.')
-            
-            Output.setText(newData)
-
-            subprocess.run(set_path)
-
-            added_path = 'C:\\~\\AppData\\Roaming\\Python\\' + pyVersion_string + '\\Scripts\\'
-            Output.setText('Path is set to: ' + added_path.capitalize)
-
-        except ValueError as e:
-            
-            newData = (e + "\n...cannot set path. Might not have persmission,")    
+        Output.setText(newData)    
 
     try: # installing pyserial via pip
 
@@ -317,7 +318,7 @@ def installer():
 
         subprocess.run(check_online)
 
-        if (check_online[0]) == 0:
+        if check_online:
 
             try: 
 

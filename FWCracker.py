@@ -293,7 +293,7 @@ def installer():
                 set_path = 'set PATH="%PATH%;C:\\~\\AppData\\Roaming\\Python\\' + pyVersion_string + '\\Scripts\\"'
                     # use setx to set permanent addition(s) to PATH
 
-                added_path = 'C:\~\AppData\Roaming\Python\' + pyVersion_string + 'Scripts\'
+                added_path = 'C:\~\AppData\Roaming\Python' + pyVersion_string + '\Scripts\'
 
                 newData = ('\n' + set_path + ' will add ' + added_path.capitalize + ' temporarily to your PATH. Use setx to change permanently.')
                 

@@ -294,13 +294,14 @@ def installer():
                 set_path = 'set PATH="%PATH%;C:\\~\\AppData\\Roaming\\Python\\' + pyVersion_string + '\\Scripts\\"'
                     # use setx to set permanent addition(s) to PATH
 
-                newData = ('\n' + set_path + ' will be temporarily added to your PATH. Use setx to change permanently.')
+                added_path = 'C:\\~\\AppData\\Roaming\\Python\\' + pyVersion_string + '\\Scripts\\'
+
+                newData = ('\n' + set_path + ' will add ' + addede_path.capitalize + ' temporarily to your PATH. Use setx to change permanently.')
                 
                 Output.setText(newData)
 
                 subprocess.run(set_path)
-
-                added_path = 'C:\\~\\AppData\\Roaming\\Python\\' + pyVersion_string + '\\Scripts\\'
+              
                 Output.setText('Path is set to: ' + added_path.capitalize)
 
             except ValueError as e:

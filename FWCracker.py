@@ -291,7 +291,7 @@ def installer():
             try: # setting (temp) ~\PATH to AppData if got python version
                 
                 set_path = 'set PATH="%PATH%;C:\\~\\AppData\\Roaming\\Python\\' + pyVersion_string + '\\Scripts\"'
-                    # use setx to set permanent addition(s) to PATH
+                    # use setx to set permanent addition(s) to your PATH
 
                 added_path = 'C:\~\AppData\Roaming\Python\\' + pyVersion_string + '\\Scripts\'
 

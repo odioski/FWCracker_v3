@@ -284,7 +284,7 @@ def installer():
 
         get_pyVersion = "python -V"
         pyVersion = subprocess.run(get_pyVersion)
-        pyVersion_string = str(pyVersion)
+        pyVersion_string = str(pyVersion[1])
 
         if pyVersion:
             

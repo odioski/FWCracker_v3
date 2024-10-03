@@ -312,7 +312,7 @@ def installer():
 
     except ValueError as e:
 
-        newData = (e + "\n...Python may not be in the usual place, try reinstalling for all users")
+        newData = (e + "\n...Python might not be in the usual place, try reinstalling for all users")
         Output.setText(newData)
         time.sleep(5)
 

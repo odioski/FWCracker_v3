@@ -299,6 +299,8 @@ def installer():
                 
                 Output.setText(newData)
 
+                time.sleep(5)
+
                 subprocess.run(set_path)
               
                 Output.setText('Path is set to: ' + added_path.capitalize)

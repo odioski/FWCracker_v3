@@ -280,7 +280,7 @@ def installer():
     global pyVersion
     global pyVersion_string
 
-    try: # getting python version
+    try: # setting path to local python installation
 
         get_pyVersion = "python -V"
         pyVersion = subprocess.run(get_pyVersion)
@@ -290,29 +290,29 @@ def installer():
             
             try: # setting (temp) ~\PATH to AppData if got python version
                 
-                set_path = 'set PATH="%PATH%;C:\\~\\AppData\\Roaming\\Python\\' + pyVersion_string + '\\Scripts\"'
+                set_new_path = 'set PATH="%PATH%;C:\\~\\AppData\\Roaming\\Python\\' + pyVersion_string + '\\Scripts\"'
                     # use setx to set permanent addition(s) to your PATH
 
-                added_path = 'C:\~\AppData\Roaming\Python\\' + pyVersion_string + '\\Scripts\'
+                added_path = 'C:\~\AppData\Roaming\Python\\' + pyVersion_string + '\\Scripts\\'
 
-                newData = ('\n' + set_path + ' will add ' + added_path.capitalize + ' temporarily to your PATH. Use setx to change permanently.')
+                newData = ('\n' + set_new_path + ' will add ' + added_path.capitalize + ' temporarily to your PATH. Use setx to change permanently.')
                 
                 Output.setText(newData)
 
                 time.sleep(5)
 
-                subprocess.run(set_path)
+                subprocess.run(set_new_path)
               
                 Output.setText('Path is set to: ' + added_path.capitalize)
 
             except ValueError as e:
                 
-                newData = (e + "\n...cannot set path. Might not have persmission,")
+                newData = (e + "\n...cannot set path. Might not have persmissions,")
                 time.sleep(5)
 
     except ValueError as e:
 
-        newData = (e + "\n...Python might not be in the usual place, try reinstalling for all users")
+        newData = (e + "\n...Python may not be in the usual place, try reinstalling for all users")
         Output.setText(newData)
         time.sleep(5)
 

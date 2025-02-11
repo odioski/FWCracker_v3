@@ -1,5 +1,0 @@
-QLabel#nfo  {
-    background-color: black;
-    color: red;
-    border: 1px solid white;
-}

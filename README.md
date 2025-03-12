@@ -1,6 +1,6 @@
 #   FWCracker_v3 w/GUI
 
-Same as version 2 with more ease and use in deployment. 
+Same as version 2 with more ease of use in deployment. 
 
 You can launch the GUI from the terminal or run the exe in /dist
 

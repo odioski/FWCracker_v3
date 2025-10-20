@@ -333,11 +333,11 @@ def installer():
 
             except ValueError as e:
 
-                newData = (e + "\n...sorry, your Python installation is not in the usual location or missing.")
+                newData = (e + "\n...sorry, \nyour Python installation is not in the usual location or missing.")
                 Output.setText(newData)           
 
         else:
-            newData = "FWCracker needs to be online only to get pyserial. Connect to the Internet and restart app.\n"
+            newData = "FWCracker needs to be online only to get pyserial. \nConnect to the Internet and restart app.\n"
             Output.setText(newData)
             time.sleep(3)
             quit()  
